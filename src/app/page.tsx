@@ -1,95 +1,58 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import Image from 'next/image';
+import Link from 'next/link';
+
+import './scss/shelter.scss';
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <div className='page_container'>
+      <div className='page_header_container'>
+        <img src='/images/logo.svg' className='site_logo' alt='logo' width={300} />
+        <div className='page_header_content'>
+          <h1 className='mobile_title'>Animal Shelter</h1>
+          <div className='line_break'></div>
+          <div className='info_container'>
+            <div className='contact_info'>
+              <h2>Contact</h2>
+              <a href='tel:9736013847'>(973) 601-3847</a>
+              <p>
+                {' '}
+                332 Durban Ave,
+                <br />
+                Hopatcong, NJ 07843{' '}
+              </p>
+            </div>
+            <div className='hours_info'>
+              <h2>Hours</h2>
+              <p> Mon - Sat: 9:00am - 12:00pm </p>
+              <p> Sun: CLOSED </p>
+            </div>
+          </div>
+          <div className='line_break line_break_bottom'></div>
         </div>
       </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+      <div className='paragraph_container'>
+        <p className='paragraph_content'>
+          At the <strong>Hopatcong Animal Shelter</strong>, we are committed to keeping pets safe, happy, and healthy
+          while they wait to be placed in a “furever” home. Located at the corner of Durban Avenue and Flora Avenue in
+          Hopatcong, NJ, the <strong>Hopatcong Animal Shelter</strong> is run by Gianna DiMateo, HLEO, and stands as a
+          place for misplaced animals of Hopatcong to transition to their new home.
+        </p>
+        <p className='paragraph_content'>
+          If you are looking for a pet and want to become a "furever" home, please call our number above. The adoption
+          procedure is very easy and convenient. Prior to calling, please fill out the appropriate{' '}
+          <Link href='/applications' className='link'>
+            application
+          </Link>
+          . If you would like to see any animals currently in our care, feel free to come by during our regular hours;
+          no appointment is necessary! If you are looking to adopt but our regular ours are not convenient, you may call
+          to set up an appointment.
+        </p>
+        <p className='paragraph_content' id='surrenders_text'>
+          <strong>Regarding Surrenders:</strong> If you have an animal to surrender, you MUST call us before you drop
+          off your pet.
+        </p>
       </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
+    </div>
+  );
 }

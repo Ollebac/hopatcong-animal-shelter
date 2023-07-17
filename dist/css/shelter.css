@@ -1,0 +1,72 @@
+.page_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.page_header_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page_header_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.info_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  max-width: 400px;
+}
+
+.contact_info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hours_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.paragraph_content {
+  margin: 10px 0;
+}
+
+@media screen and (min-width: 720px) {
+  .page_header_container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .page_header_content {
+    padding-left: 10px;
+  }
+  .info_container {
+    max-width: 500px;
+  }
+  #surrenders_text {
+    width: 75%;
+    align-self: flex-start;
+  }
+  .paragraph_container {
+    width: 75%;
+    max-width: 900px;
+  }
+}
+@media screen and (min-width: 1020px) {
+  #surrenders_text {
+    width: 65%;
+  }
+}/*# sourceMappingURL=shelter.css.map */

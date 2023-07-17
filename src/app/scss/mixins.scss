@@ -1,0 +1,10 @@
+@use './variables' as var;
+
+@mixin button($color: blue) {
+  background-color: $color;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+}

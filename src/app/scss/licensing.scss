@@ -1,0 +1,58 @@
+.phone_extension {
+  padding-left: 5px;
+}
+
+.badge_rabies {
+  display: none;
+}
+
+.paragraph_content_licensing {
+  margin: 10px 0;
+}
+
+.licensing_list {
+  margin-left: 30px;
+  list-style: disc;
+  max-width: 300px;
+}
+
+.licensing_sublist {
+  margin-left: 50px;
+  list-style: disc;
+  max-width: 300px;
+}
+
+.badge_license_bottom {
+  display: none;
+}
+
+@media screen and (min-width: 720px) {
+  .licensing_list_container {
+    display: flex;
+    // justify-content: space-around;
+    margin: 20px 0;
+  }
+
+  .licensing_list {
+    margin-left: 40px;
+  }
+
+  .licensing_sublist {
+    margin-left: 60px;
+  }
+
+  .badge_license_bottom {
+    display: block;
+    width: clamp(120px, 14vw, 168px);
+    margin-left: clamp(80px, 12vw, 130px);
+  }
+
+  .badge_license_top {
+    display: none;
+  }
+
+  .badge_rabies {
+    display: block;
+    width: clamp(120px, 14vw, 168px);
+  }
+}

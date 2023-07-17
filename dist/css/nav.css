@@ -1,0 +1,86 @@
+.nav_menu_container {
+  background-color: #002fd6;
+  padding: 0 clamp(20px, 6.25vw, 30px);
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  height: 80px;
+}
+
+.mobile_menu_button {
+  font-size: 1.5rem;
+  position: relative;
+  cursor: pointer;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav_menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile_menu_active {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  padding: 15px 25px 15px 20px;
+  background-color: #002fd6;
+  opacity: 0.95;
+  border-radius: 0 0 0 20px;
+}
+
+.mobile_menu_inactive {
+  display: none;
+}
+
+.nav_menu_desktop {
+  display: none;
+}
+
+.menu_item {
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin: 5px 0;
+}
+
+@media screen and (min-width: 800px) {
+  .nav_menu_container {
+    padding-right: 10px;
+    align-items: center;
+  }
+  .mobile_menu_button {
+    display: none;
+  }
+  .nav_menu_desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+  }
+  .menu_item {
+    font-size: 0.8rem;
+    margin-left: 20px;
+  }
+  .menu_item_support {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (min-width: 850px) {
+  .menu_item {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .menu_item {
+    font-size: 1rem;
+  }
+}/*# sourceMappingURL=nav.css.map */
