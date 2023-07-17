@@ -47,7 +47,9 @@ export default function Nav() {
           Application
         </Link>
         <button className='menu_item'>
-          <Link href='/support-us'>Support Us</Link>
+          <Link href='/support-us' className='white'>
+            Support Us
+          </Link>
         </button>
       </div>
       {/* </div> */}
