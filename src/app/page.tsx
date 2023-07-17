@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className='page_container'>
       <div className='page_header_container'>
-        <img src='/images/logo.svg' className='site_logo' alt='logo' width={300} />
+        <img src='/images/logo.svg' className='site_logo' alt='Adopt Local Hopatcong Animal Shelter' width={300} />
         <div className='page_header_content'>
           <h1 className='mobile_title'>Animal Shelter</h1>
           <div className='line_break'></div>

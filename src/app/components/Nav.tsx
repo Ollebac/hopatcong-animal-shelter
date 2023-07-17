@@ -14,20 +14,20 @@ export default function Nav() {
         MENU
       </li>
       <div className={`${mobileMenu === true ? 'mobile_menu_active' : 'mobile_menu_inactive'}`}>
-        <Link href='/' className='menu_item'>
+        <Link href='/' className='menu_item' onClick={() => setMobileMenu(!mobileMenu)}>
           Animal Shelter
         </Link>
-        <Link href='/animal-control' className='menu_item'>
+        <Link href='/animal-control' className='menu_item' onClick={() => setMobileMenu(!mobileMenu)}>
           Animal Control
         </Link>
-        <Link href='/licensing' className='menu_item'>
+        <Link href='/licensing' className='menu_item' onClick={() => setMobileMenu(!mobileMenu)}>
           Licensing
         </Link>
-        <Link href='/applications' className='menu_item'>
-          Application
+        <Link href='/applications' className='menu_item' onClick={() => setMobileMenu(!mobileMenu)}>
+          Applications
         </Link>
         <button>
-          <Link href='/support-us' className='menu_item'>
+          <Link href='/support-us' className='menu_item' onClick={() => setMobileMenu(!mobileMenu)}>
             Support Us
           </Link>
         </button>
@@ -44,7 +44,7 @@ export default function Nav() {
           Licensing
         </Link>
         <Link href='/applications' className='menu_item'>
-          Application
+          Applications
         </Link>
         <button className='menu_item'>
           <Link href='/support-us' className='white'>

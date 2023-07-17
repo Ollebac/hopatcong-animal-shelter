@@ -23,9 +23,13 @@ export default function Footer() {
       <p className='footer_content'>
         If you would like to volunteer at the Hopatcong Animal shelter, whether its walking a dog or playing with cats,
         please fill out our{' '}
-        <Link href='applications' className='link'>
+        <a
+          href='https://docs.google.com/forms/d/e/1FAIpQLSeoYcidWeUKmZdL5PF1L-rtYT8_grg56-oZ5mPfyqyfNQhDwg/viewform'
+          className='link'
+          target='_blank'
+        >
           volunteer application
-        </Link>{' '}
+        </a>{' '}
         and we’ll get in touch!
       </p>
       {/* </div>
