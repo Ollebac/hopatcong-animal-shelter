@@ -1,3 +1,9 @@
+.blue_bar {
+  width: 100%;
+  height: 80px;
+  background-color: #002fd6;
+}
+
 .relative {
   position: relative;
 }

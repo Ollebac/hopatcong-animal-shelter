@@ -1,12 +1,11 @@
 import './scss/not-found.scss';
 
-import Nav from './components/Nav';
 import Link from 'next/link';
 
 export default function NotFound() {
   return (
     <>
-      <Nav />
+      <div className='blue_bar'></div>
       <div className='error_logo_container'>
         <img src='/images/logo.svg' className='error_logo' alt='Adopt Local Hopatcong Animal Control' width={300} />
       </div>
