@@ -1,5 +1,4 @@
 import '../scss/control.scss';
-import '../scss/shelter.scss';
 
 export default function AnimalControl() {
   return (
