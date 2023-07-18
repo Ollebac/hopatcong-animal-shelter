@@ -67,11 +67,8 @@ export default function Licensing() {
             October 31st of the following year.
           </p>
           <p className='paragraph_content_licensing'>
-            A <strong>FREE</strong> Rabies Clinic will be held in the month of May every year. The Borough is currently
-            working to move the free rabies clinic to align with the registration and renewal period.
-          </p>
-          <p className='paragraph_content_licensing'>
-            To stay up to date with our Rabies Clinic and other events, follow the Hopatcong Animal Shelter’s official
+            A <strong>FREE</strong> Rabies Clinic will be held in the month of November every year. To stay up to date
+            with our Rabies Clinic and other events, follow the Hopatcong Animal Shelter’s official
             <strong>
               {' '}
               <a href='https://www.facebook.com/Hopatconganimalshelter' target='blank' className='link'>
