@@ -19,10 +19,34 @@ export default function Applications() {
           the appropriate application below.
         </p>
         <div className='application_links_container'>
-          <button className='app_link_one application_button'>CAT ADOPTION</button>
-          <button className='app_link_two application_button'>FOSTERING</button>
-          <button className='app_link_three application_button'>DOG ADOPTION</button>
-          <button className='app_link_four application_button'>VOLUNTEERING</button>
+          <a
+            href='https://docs.google.com/forms/d/e/1FAIpQLSftlrnDVNUbD_UpPop7I2BUJLO3gB1HvNhmajSeKq3H0tssjw/viewform'
+            className='app_link_one'
+            target='_blank'
+          >
+            <button className='application_button'>CAT ADOPTION</button>
+          </a>
+          <a
+            href='https://docs.google.com/forms/d/e/1FAIpQLScWm9lsa9ZkyyXVPj7DHi_oN6rZ8ERcgDuoKw4CwaZgDkdqLg/viewform'
+            className='app_link_two'
+            target='_blank'
+          >
+            <button className='application_button'>FOSTERING</button>
+          </a>
+          <a
+            href='https://docs.google.com/forms/d/e/1FAIpQLSfhdYJgc9s3sIvb4YUwnE835QaD4XSXn9PU9OZKl9vb4yJb1g/viewform'
+            className='app_link_three'
+            target='_blank'
+          >
+            <button className='application_button'>DOG ADOPTION</button>
+          </a>
+          <a
+            href='https://docs.google.com/forms/d/e/1FAIpQLSeoYcidWeUKmZdL5PF1L-rtYT8_grg56-oZ5mPfyqyfNQhDwg/viewform'
+            className='app_link_four'
+            target='_blank'
+          >
+            <button className='application_button'>VOLUNTEERING</button>
+          </a>
           <img src='/images/animals-black.svg' className='app_image' alt='Dog and Cat sitting side by side' />
         </div>
       </div>
