@@ -11,10 +11,14 @@ export default function Nav() {
   return (
     <nav className='nav_menu_container'>
       <div className='social_links_container_mobile'>
-        <a className='social_link_container' href='https://www.facebook.com/Hopatconganimalshelter'>
+        <a className='social_link_container' href='https://www.facebook.com/Hopatconganimalshelter' target='_blank'>
           <img src='/images/logo-facebook.svg' className='social_link' alt='Facebook Logo' width={30} />
         </a>
-        <a className='social_link_container' href='https://www.instagram.com/hopatcong_animal_shelter_/'>
+        <a
+          className='social_link_container'
+          href='https://www.instagram.com/hopatcong_animal_shelter_/'
+          target='_blank'
+        >
           <img src='/images/logo-instagram.svg' className='social_link' alt='Instagram Logo' width={30} />
         </a>
       </div>
@@ -42,10 +46,14 @@ export default function Nav() {
       </div>
       <div className='nav_menu_desktop'>
         <div className='social_links_container_desktop'>
-          <a className='social_link_container' href='https://www.facebook.com/Hopatconganimalshelter'>
+          <a className='social_link_container' href='https://www.facebook.com/Hopatconganimalshelter' target='_blank'>
             <img src='/images/logo-facebook.svg' className='social_link' alt='Facebook Logo' width={30} />
           </a>
-          <a className='social_link_container' href='https://www.instagram.com/hopatcong_animal_shelter_/'>
+          <a
+            className='social_link_container'
+            href='https://www.instagram.com/hopatcong_animal_shelter_/'
+            target='_blank'
+          >
             <img src='/images/logo-instagram.svg' className='social_link' alt='Instagram Logo' width={30} />
           </a>
         </div>
