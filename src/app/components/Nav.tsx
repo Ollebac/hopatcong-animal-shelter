@@ -11,10 +11,10 @@ export default function Nav() {
   return (
     <nav className='nav_menu_container'>
       <div className='social_links_container_mobile'>
-        <a className='social_link_container'>
+        <a className='social_link_container' href='https://www.facebook.com/Hopatconganimalshelter'>
           <img src='/images/logo-facebook.svg' className='social_link' alt='Facebook Logo' width={30} />
         </a>
-        <a className='social_link_container'>
+        <a className='social_link_container' href='https://www.instagram.com/hopatcong_animal_shelter_/'>
           <img src='/images/logo-instagram.svg' className='social_link' alt='Instagram Logo' width={30} />
         </a>
       </div>
