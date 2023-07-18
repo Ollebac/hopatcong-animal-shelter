@@ -31,7 +31,7 @@
 
 .app_link_one {
   grid-area: one;
-  justify-self: end;
+  justify-self: flex-end;
 }
 
 .app_link_two {
@@ -41,7 +41,7 @@
 
 .app_link_three {
   grid-area: three;
-  justify-self: end;
+  justify-self: flex-end;
 }
 
 .app_link_four {
