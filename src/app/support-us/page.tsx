@@ -39,11 +39,11 @@ export default function Licensing() {
           At the <strong>Hopatcong Animal Shelter</strong>, we rely heavily on donations to keep our shelter clean and
           our animals comfortable. If you would like to support us, please consider donating some of our most used items
           (listed below) or donating items via{' '}
-          <a href='https://www.amazon.com/hz/wishlist/ls/AYEJ46WBAYBA?ref_=wl_fv_le' className='link'>
+          <a href='https://www.amazon.com/hz/wishlist/ls/AYEJ46WBAYBA?ref_=wl_fv_le' className='link' target='_blank'>
             <strong>Amazon</strong>
           </a>{' '}
           or{' '}
-          <a href='https://www.chewy.com/g/hopatcong-animal-shelter_b73319191' className='link'>
+          <a href='https://www.chewy.com/g/hopatcong-animal-shelter_b73319191' className='link' target='_blank'>
             <strong>Chewy!</strong>
           </a>
         </p>
@@ -60,10 +60,18 @@ export default function Licensing() {
           <li className='support_list'>Cat Chow Complete Dry Cat Food</li>
         </div>
         <div className='wishlist_links_container'>
-          <a href='https://www.amazon.com/hz/wishlist/ls/AYEJ46WBAYBA?ref_=wl_fv_le' className='wishlist_link'>
+          <a
+            href='https://www.amazon.com/hz/wishlist/ls/AYEJ46WBAYBA?ref_=wl_fv_le'
+            className='wishlist_link'
+            target='_blank'
+          >
             <img src='/images/amazon.svg' className='wishlist_image' alt='Amazon Wishlist Link' width={300} />
           </a>
-          <a href='https://www.chewy.com/g/hopatcong-animal-shelter_b73319191' className='wishlist_link'>
+          <a
+            href='https://www.chewy.com/g/hopatcong-animal-shelter_b73319191'
+            className='wishlist_link'
+            target='_blank'
+          >
             <img src='/images/chewy.svg' className='wishlist_image' alt='Chewy Wishlist Link' width={300} />
           </a>
         </div>
