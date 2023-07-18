@@ -48,7 +48,7 @@ p {
   font-size: 1rem;
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 820px) {
   html {
     font-size: 14px;
   }
@@ -93,7 +93,7 @@ p {
     padding: 0 25px;
   }
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 740px) {
   .main_content {
     padding: 0 50px;
   }

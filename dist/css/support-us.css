@@ -1,0 +1,68 @@
+.support_icon {
+  display: none;
+}
+
+.paragraph_container_support {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+  max-width: 900px;
+}
+
+.wishlist_image {
+  width: 100%;
+}
+
+.support_list_container {
+  margin-bottom: 20px;
+  align-self: start;
+}
+
+.wishlist_links_container {
+  display: flex;
+  justify-content: center;
+  margin: 10px 20px;
+}
+
+.wishlist_link {
+  width: 50%;
+  max-width: 170px;
+  margin: 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+.needed_items_title {
+  margin-bottom: 10px;
+}
+
+.support_list_container {
+  align-self: start;
+}
+
+.support_list {
+  margin-left: 30px;
+  list-style: disc;
+  max-width: 500px;
+}
+
+@media screen and (min-width: 720px) {
+  .paragraph_container_support {
+    flex-direction: row;
+    justify-content: start;
+    width: 75%;
+  }
+  .support_list_container {
+    justify-content: start;
+  }
+  .wishlist_links_container {
+    flex-direction: column;
+    transform: translateX(40px);
+    margin: 10px 0;
+  }
+  .wishlist_link {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 40vw;
+  }
+}/*# sourceMappingURL=support-us.css.map */

@@ -26,7 +26,7 @@
   display: none;
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 740px) {
   .licensing_list_container {
     display: flex;
     margin: 20px 0;
