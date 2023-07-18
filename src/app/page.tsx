@@ -39,8 +39,8 @@ export default function Home() {
           stands as a place for misplaced animals of Hopatcong to transition to their new home.
         </p>
         <p className='paragraph_content'>
-          If you are looking for a pet and want to become a "furever" home, please call our number above. The adoption
-          procedure is very easy and convenient. Prior to calling, please fill out the appropriate{' '}
+          If you are looking for a pet and want to become a &quot;furever&quot; home, please call our number above. The
+          adoption procedure is very easy and convenient. Prior to calling, please fill out the appropriate{' '}
           <Link href='/applications' className='link'>
             application
           </Link>
