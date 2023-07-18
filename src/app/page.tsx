@@ -33,10 +33,9 @@ export default function Home() {
       </div>
       <div className='paragraph_container'>
         <p className='paragraph_content'>
-          At the <strong>Hopatcong Animal Shelter</strong>, we are committed to keeping pets safe, happy, and healthy
-          while they wait to be placed in a “furever” home. Located at the corner of Durban Avenue and Flora Avenue in
-          Hopatcong, NJ, the <strong>Hopatcong Animal Shelter</strong> is run by Gianna DiMateo, HLEO, and stands as a
-          place for misplaced animals of Hopatcong to transition to their new home.
+          {
+            'At the <strong>Hopatcong Animal Shelter</strong>, we are committed to keeping pets safe, happy, and healthy while they wait to be placed in a “furever” home. Located at the corner of Durban Avenue and Flora Avenue in Hopatcong, NJ, the <strong>Hopatcong Animal Shelter</strong> is run by Gianna DiMateo, HLEO, and stands as a place for misplaced animals of Hopatcong to transition to their new home.'
+          }
         </p>
         <p className='paragraph_content'>
           If you are looking for a pet and want to become a "furever" home, please call our number above. The adoption

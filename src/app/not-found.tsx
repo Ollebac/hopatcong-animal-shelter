@@ -12,7 +12,7 @@ export default function NotFound() {
       <div className='error_page'>
         <img src='/images/dog-eyes-1.jpg' className='error_image' alt='Puppy covering eyes' width={300} />
         <span>
-          <h2>OH NO! It looks like you're lost!</h2>
+          <h2>{"OH NO! It looks like you're lost!"}</h2>
         </span>
         <button className='error_home_button'>
           <h1>
