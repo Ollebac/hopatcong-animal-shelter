@@ -30,7 +30,7 @@ export default function AnimalControl() {
         <div>
           <p className='paragraph_content_control'>
             <strong>Hopatcong Animal Control</strong> is run out of the Hopatcong Police Department and currently
-            services the following towns: Hopatcong, Wharton, Mt. Arlington, and Byram.
+            services the following towns: Hopatcong, Wharton, Mt. Arlington, Byram, Stanhope, and Netcong.
           </p>
           <li className='control_list'>
             For <strong className='red_text'>emergencies</strong>, please call 911.
