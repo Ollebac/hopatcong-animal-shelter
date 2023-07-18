@@ -74,7 +74,7 @@ export default function Licensing() {
             To stay up to date with our Rabies Clinic and other events, follow the Hopatcong Animal Shelter’s official
             <strong>
               {' '}
-              <a href='https://www.facebook.com' target='blank'>
+              <a href='https://www.facebook.com/Hopatconganimalshelter' target='blank' className='link'>
                 Facebook
               </a>
             </strong>{' '}
